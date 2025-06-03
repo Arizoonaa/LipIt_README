@@ -1,0 +1,3 @@
+[submodule "LipIt"]
+	path = LipIt
+	url = https://github.com/Arizoonaa/LipIt.git
