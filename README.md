@@ -236,24 +236,61 @@
 
 
 
+
+
 <br>
 
 ## 📌AI 활용내역
 
 ### 음성 AI
-1. 사전 학습된 Coqui TTS의 VITS 기반 모델을 활용하여 Fine-tuning 수행
+- 사전 학습된 Coqui TTS의 VITS 기반 모델을 활용하여 Fine-tuning 수행
 
-🎤 음성 모델 1 : Coqui TTS의 VITS 기반 모델을 **Fine-tuning**하여 **셀럽 음성** 생성
+#### 🎤 음성 모델 1 : Coqui TTS의 VITS 기반 모델을 **Fine-tuning**하여 **셀럽 음성** 생성
 
-- 음성 wav 파일 들어갈 예정
+<table style="margin: auto; text-align: center;">
+  <tr>
+    <th>GlowTTS 파인튜닝 초기</th>
+    <th>VITS 파인튜닝 후</th>
+    <th>VITS 파인튜닝 + 추가 학습</th>
+  </tr>
+  <tr>
+    <td style="text-align: center;">정확도 0.7692</td>
+    <td style="text-align: center;">정확도 0.8246</td>
+    <td style="text-align: center;">정확도 0.8324</td>
+  </tr>
+  <tr>
+    <td><video src="https://github.com/user-attachments/assets/2e7beb1b-0b5b-4879-ba25-6ab77c30121c" controls width="250"></video></td>
+    <td><video src="https://github.com/user-attachments/assets/f6272585-5d57-4d1c-8749-6a38251974ee" controls width="250"></video></td>
+    <td><video src="https://github.com/user-attachments/assets/462dde9b-29db-4b9f-be23-8030df10d5a3" controls width="250"></video></td>
+  </tr>
+</table>
 
 
-🎤 음성 모델 2 : XTTS API 기반으로, **사용자가 직접 녹음한 음성**을 바탕으로 **제로샷 커스텀 음성 생성**을 실시간 수행
+<br>
 
-- 음성 wav 파일 들어갈 예정
+#### 🎤 음성 모델 2 : XTTS API 기반으로, **사용자가 직접 녹음한 음성**을 바탕으로 **제로샷 커스텀 음성 생성**을 실시간 수행
+
+<table style="margin: auto; text-align: center;">
+  <tr>
+    <th>녹음된 원본 목소리</th>
+    <th>XTTS API를 활용한 목소리</th>
+  </tr>
+    <tr>
+    <th></th>
+    <th>Everything has its wonders, even darkness and silence, and I learn, whatever state I am in, therein to be content.</th>
+  </tr>
+  <tr>
+    <td><video src="https://github.com/user-attachments/assets/aa2c31d3-c57a-46d9-a7f1-8746072a0dfd" controls width="250"></video></td>
+    <td><video src="https://github.com/user-attachments/assets/ff9b41af-2012-4d09-a89c-db07070b412c" controls width="250"></video></td>
+  </tr>
+</table>
+
+목소리 출처: 유선무선이
+(유소나 고마오❤️)
+
+<br>
 
 ### 영상 AI
-
 
 <img src="docs/hallo.gif" width="700"/>
 
