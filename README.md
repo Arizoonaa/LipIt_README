@@ -166,7 +166,7 @@
 - [API 명세서 및 Swagger](docs/API.md)
 - [ERD 다이어그램](docs/ERD.md)
 - [시스템 아키텍처](docs/SystemArchitecture.md)
-- [시연 영상](https://www.youtube.com/watch?v=TvBajxe-3wI)
+- [시연 영상](https://youtu.be/gtlb0aT_n98)
 
 
 <br>
@@ -180,11 +180,11 @@
 - 앱 사용 필수 권한 3가지(알림, 갤러리, 마이크) 허용해야 서비스 이용 가능
 
 
-<img width=550 src="https://velog.velcdn.com/images/bmlsj/post/da91d05b-22cd-4663-adec-8492858f6498/image.png"/>
+<img width=850 src="https://velog.velcdn.com/images/bmlsj/post/da91d05b-22cd-4663-adec-8492858f6498/image.png"/>
 
 </br>
 
-<img width=270 src="https://velog.velcdn.com/images/bmlsj/post/cc5830c5-69ed-4106-8608-3a5c8e1141da/image.png"/>
+<img width=570 src="https://velog.velcdn.com/images/bmlsj/post/cc5830c5-69ed-4106-8608-3a5c8e1141da/image.png"/>
 
 
 ### 2. 셀럽 및 커스텀 보이스로 전화 학습 기능
@@ -193,7 +193,7 @@
     - 셀럽 카드를 뒤집을 경우, 해당 음성을 들을 수 있음
     - 셀럽 음성은 **리워드 형식**으로 레벨 업으로로 모든 셀럽 음성 얻을 수 있음
 
- <img src="docs/gif/셀럽보이스선택.gif" width="200" />
+ <img src="docs/gif/셀럽보이스선택.gif" width="300" />
 
 
 2) 선택한 보이스로 전화 영어 학습
@@ -201,7 +201,7 @@
         - 각 모드별 **번역과 자막 기능**이 존재
     - RAG를 사용 => **AI가 이전 대화 기록을 기억**해 더 친근한 대화 가능
 
- <img src="docs/gif/셀럽보이스기능.gif" width="200" />
+ <img src="docs/gif/셀럽보이스기능.gif" width="300" />
 
 ### 3. 통화 알림 설정
 
@@ -211,7 +211,7 @@
 - 부재중 시, 부재중 알림이 뜨며 하루에 총 2번까지 **부재중 전화**가 옴
 - 전화를 받을 시, 당일 전화는 더이상 오지 않음
 
-<img src="docs/gif/전화알림설정.gif" width="200" />
+<img src="docs/gif/전화알림설정.gif" width="300" />
 
 
 ### 3. 커스텀 보이스 생성
@@ -220,7 +220,7 @@
 - 총 10개의 영어 문장을 따라 읽으면 보이스 생성
 - 정확한 보이스 생성을 위해 **음성과 텍스트의 발음 유사도**를 통과해야 다음 문장을 녹음 할 수 잇음
 
- <img src="docs/gif/커스텀보이스녹음.gif" width="200" />
+ <img src="docs/gif/커스텀보이스녹음.gif" width="300" />
 
 
 ### 4. AI 학습 리포트 생성
@@ -232,7 +232,7 @@
 - **원어민 표현** : 사용자가 말한 문장에서 원어민이 사용하는 표현으로 고쳐줌
 - **전체 대화 스크립트** : AI와 전체 대화 내역 제공
 
-    <img src="docs/gif/리포트.gif" width="200" />
+    <img src="docs/gif/리포트.gif" width="300" />
 
 
 
@@ -324,7 +324,7 @@
   - 안드로이드
     - 로그인/로그아웃/회원가입 기능 구현
     - 전화통화 보이스 및 텍스트 모드 구현
-      - 웹소켓 통신, SpeechRecognizer, ExoPlayer 활용용
+      - 웹소켓 통신, SpeechRecognizer, ExoPlayer 활용
     - 메인 화면
       - FCM 활용한 오늘의 문장
       - Weekly Calls 및 Next Level 구현
